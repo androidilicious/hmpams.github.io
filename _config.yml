@@ -5,7 +5,7 @@ title: HM Pharmaceutical
 description: "HM Pharmaceutical and Medical Supplies is a company that provides healthcare products to Bhutanese people. The company aims to improve the lives of Bhutanese people through compassionate and responsive delivery of healthcare products. "
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "https://hmpams.com"
+url: ""
 
 # Build settings
 markdown: kramdown
