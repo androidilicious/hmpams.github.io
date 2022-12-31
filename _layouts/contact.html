@@ -1,6 +1,16 @@
----
-layout: default
----
-{% include wrap.html %}
 
-    {{ content }}
+<!DOCTYPE html>
+<html>
+
+    {% include contact-head.html %}
+
+    <body>
+        {% include nav.html %}
+        {% include wrap.html %}
+
+            {{ content }}
+
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
+</html>

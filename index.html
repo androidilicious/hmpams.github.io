@@ -4,59 +4,38 @@ title: Home
 permalink: /
 ---
 
-<div id="service">
+
+<div id="service" >
     <div class="container">
         <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                <span class="sr-only">An image of a love-heart</span>
-                <h4>Handsomely Crafted</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
+            <h2 style="text-align: center; padding-bottom: 5%;">Our Services</h2>
+            <div class="panel panel-default col-md-4">
                 <i class="fa fa-flask" aria-hidden="true"></i>
+                <span class="sr-only">An image of a love-heart</span>
+                <h4>Drug</h4>
+                <p>We offer a wide range of pharmaceutical options for both human and veterinary use, including both generic and over-the-counter medications. Whether you need medication for yourself or your furry friends, we have you covered. Trust us to provide the best quality drugs to keep you and your loved ones healthy and well.</p>
+                
+            </div>
+            <div class="panel panel-default col-md-4">
+                <i class="fa fa-stethoscope" aria-hidden="true"></i>
                 <span class="sr-only">An image of a laboratory flask</span>
-                <h4>Retina Ready</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <h4>Non Drug</h4>
+                <p>We are a medical supply company offering a wide range of equipment and consumables for various medical departments, including anesthesia, dental, ENT, gynecology, hemodialysis, ICU, medical gases, CCSD, operating room, ophthalmology, orthopedic, pediatric, pharmacy, physiotherapy, radiology, and surgery. </p>
+                
             </div>
-            <div class="col-md-4">
-                <i class="fa fa-trophy" aria-hidden="true"></i>
+            <div class="panel panel-default col-md-4">
+                <i class="fa fa-comments" aria-hidden="true"></i>
                 <span class="sr-only">An image of a trophy</span>
-                <h4>Quality Theme</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <h4>Consultations</h4>
+                <p>In addition to our extensive range of medical supplies, we also offer consultation services. Our team of expert professionals is available to provide guidance and support on a variety of medical topics. Whether you need help with product selection or have questions about treatment options, we are here to help. </p>
+                
             </div>
+            
         </div>
     </div><!--/container -->
 </div><!--/service -->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
 
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
-        </div>
 
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for question in site.questions %}
-                <p><a href="{{ question.url | prepend: site.baseurl }}">{{ question.title }}</a></p>
-            {% endfor %}
-        </div>
 
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.posts limit:5 %}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %}
-        </div>
 
-    </div><!--/row -->
-</div><!--/container -->

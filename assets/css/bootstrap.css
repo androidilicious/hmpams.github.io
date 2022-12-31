@@ -5783,3 +5783,14 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+/* The heart of the matter */
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-md-3 {
+  display: inline-block;
+  float: none;
+}

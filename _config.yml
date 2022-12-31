@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: HM Pharmaceutical
+description: "HM Pharmaceutical and Medical Supplies is a company that provides healthcare products to Bhutanese people. The company aims to improve the lives of Bhutanese people through compassionate and responsive delivery of healthcare products. "
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "https://hmpams.com"
 
 # Build settings
 markdown: kramdown
@@ -13,8 +13,8 @@ permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  primary: "#729ac0" #"#F70031"
+  primary_rgb: "114,154,192" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
@@ -48,47 +48,47 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - PO Box No.13, NPPF Colony
+    - Phuntsholing Throm, Chhukha 734001,
+    - Bhutan.
+email: hmpams@gmail.com
+tel: +975 77270465 / 77793301
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Mr. Bivatsu Giri
+    position: Managing Director
+    text: Bivatsu has a background in hospitality management, with a diploma in the field and a BBA. He has worked in a variety of management positions at luxury hotels in Europe and Australia, gaining valuable experience in the industry. Upon returning to his home country, Bivatsu decided to embark on a new business venture and founded HM Pharmaceutical & Medical Supplies.
     img: team01.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Dr. Bhakta Raj Giri
+    position: Senior Medical Advisor
+    text: Dr. Bhakta Raj Giri is an experienced medical professional who has a PhD in Public Health, MD in Internal Medicine, and MBBS. He worked as a Medical specialist and Head of Department in Medicine for the Ministry of Health in Bhutan and later took on roles as a Medical Consultant in Cambodia and at the Human Organ Transplant Center and the Embassy of the Government of India in Kathmandu.
     img: team02.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Dr. Seeta Giri
+    position: Finance Director
+    text: Dr. Seeta Giri holds a PhD in Natural Resources Management and double masters degrees in Ecology and Environment and Sustainable Development. She has worked for the UN in Bhutan, Afghanistan, Cambodia, Bangladesh, and Nepal for over two decades, implementing key projects and collaborating with government ministries, NGOs, and the private sector.
     img: team03.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  - name: Mr. Purna Bahadur Chhetri
+    position: Supply Chain Manager
+    text: Purna is a skilled manager with a BBA from the University of North Bengal and an MBA from the Siliguri Institute of Technology. They are based in Siliguri, India and are responsible for overseeing the logistics of importing supplies into Bhutan from India. Purna plays a crucial role in ensuring that the necessary goods and materials are efficiently and effectively transported across the border.
     img: team04.jpg
     social:
       - title: envelope #use for email address
@@ -107,11 +107,40 @@ clients:
   - name: VimeoPro
     img: client04.png
 
+###################### Clients ######################
+partners:
+  - name: "Innovative Pharmaceuticals"
+    logo: "p-1.png"
+    id: 1
+  - name: "Lifecare Neuro Products Limited"
+    logo: "p-2.png"
+    id: 2
+  - name: "Snibe Diagnostic"
+    logo: "p-3.png"
+    id: 3
+  - name: "Laborate Pharmaceuticals India Limited"
+    logo: "p-4.png"
+    id: 4
+  - name: "Bain Medical Equipment Co., Limited"
+    logo: "p-5.png"
+    id: 5
+  - name: "Aishwarya Group"
+    logo: "p-6.png"
+    id: 6
+  - name: "Earth Ortho Private Limited"
+    logo: "p-7.png"
+    id: 7
+  - name: "Joyti Capsulations Private Limited"
+    logo: "p-8.png"
+    id: 8
+
+
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "HM Pharmaceutical and Medical supplies improves the lives of Bhutanese people, we serve through compassionate, responsive delivery of healthcare products and strive to be a leader in the private sector working with the Bhutanese people and the Royal Government of Bhutan."
+
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "The success of a healthcare facility depends on its ability to access reliable medical supplies. As a provider of top-quality products and expert consultation services, we are committed to helping you deliver the best care possible for your patients."
+    author: Bivatsu Giri
+    position: CEO

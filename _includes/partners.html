@@ -1,0 +1,21 @@
+<div class="partner container">
+    <h2 style="text-align: center; padding-bottom: 5%;">Our Partners</h2>
+    <section class="row center customer-logos slider">
+        
+        {% for partner in site.partners %}
+            <div class="slider">
+                
+                <img src="{{ "/assets/img/partners/" | prepend: site.baseurl }}{{ partner.logo }}" class="img-responsive">
+                
+            </div>
+                
+            
+        {% endfor %}
+
+        
+
+        
+    
+    </section>
+</div>
+
