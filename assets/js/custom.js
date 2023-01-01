@@ -22,6 +22,10 @@
 		});
 	});
 
+	$(".navbar-toggle").click(function(event) {
+		$(".navbar-collapse").toggle('in');
+	});
+
 // prettyPhoto
 	jQuery(document).ready(function(){
 		jQuery('a[data-gal]').each(function() {

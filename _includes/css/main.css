@@ -28,6 +28,7 @@ body {
 	color: {{ site.colors.secondary }};
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	zoom: .9;
 	}
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,6 +97,30 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
+/* EXAMPLE 6 - Background Logo*/
+.example6 .navbar-brand{ 
+	background: url("/assets/img/logo-main.png") center / contain no-repeat;
+	width: 200px;
+}
+
+  /* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	height: 50px;
+}
+.navbar-alignit .navbar-brand {
+	top: 50%;
+	display: block;
+	position: relative;
+	height: auto;
+	transform: translate(0,-50%);
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
@@ -107,62 +132,30 @@ a:focus {
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
 	padding: 0px;
-	
-	
+}
+.navbar-brand>img {
+	height: 100%;
+	padding: 15px;
+	width: auto;
 }
 
-.navbar-header .navbar-brand {
-	color: white;
-	
-}
 
-.navbar-default .navbar-nav > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-	color: {{ site.colors.primary }};
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
-	background-color: transparent;
-}
-
-.navbar-default {
-	background-color: {{ site.colors.secondary }};
-	border-color: transparent;
-}
-
-.dropdown-menu {
-	background: {{ site.colors.secondary }};
-}
-
-.dropdown-menu > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
-}
 
 .btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.secondary }};
-  border-color: {{ site.colors.secondary }};
-  margin: 4px;
+	color: #fff;
+	background-color: {{ site.colors.secondary }};
+	border-color: {{ site.colors.secondary }};
+	margin: 4px;
 }
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+	color: #fff;
+	background-color: {{ site.colors.primary }};
+	border-color: {{ site.colors.primary }};
 }
 
 .dmbutton:hover,
@@ -406,7 +399,7 @@ a:focus {
 
 #blue {
 	background: {{ site.colors.primary }};
-	margin-top: 50px;
+	margin-top: 00px;
 	margin-bottom: 60px;
 	padding-top: 25px;
 	padding-bottom: 25px;
