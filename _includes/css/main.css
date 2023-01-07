@@ -1,11 +1,6 @@
 /*	################################################################
 
-	Author: Carlos Alvarez
-	URL: http://alvarez.is
 
-	Project Name: SOLID - Bootstrap 3 Theme
-	Version: 1.0
-	URL: http://alvarez.is
 	
 ################################################################# */ 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
@@ -521,7 +516,7 @@ a.anchor{
 
 
 .banner {
-	background: url("/assets/img/hmpsbanner.gif") center center no-repeat;
+	background: url("/assets/img/hmpsbanner.gif")  no-repeat;
 	background-size: cover;
 	overflow: hidden;
 	height: 100vh; 
@@ -529,7 +524,7 @@ a.anchor{
   
 .banner-content {
 	padding: 250px 0px 220px 0px;
-	margin-top: 85px;
+	margin-top: 60px;
 
 	h2 {
 	font-size: 100px;

@@ -19,12 +19,14 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <h4>Our Bunker</h4>
+                <h4>Contact</h4>
                 <div class="hline-w"></div>
                 <p>
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
+                    {{ site.email }} <br>
+                    {{ site.tel }}
                 </p>
             </div>
         </div><! --/row -->
